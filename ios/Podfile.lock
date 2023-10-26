@@ -154,7 +154,6 @@ PODS:
     - Analytics
     - AppAuth
     - Branch
-    - EXBranch
     - FBAudienceNetwork
     - FBSDKCoreKit
     - Google-Maps-iOS-Utils
@@ -809,10 +808,6 @@ PODS:
     - ExpoModulesCore
     - ZXingObjC/OneD
     - ZXingObjC/PDF417
-  - EXBranch (6.5.0):
-    - Branch (= 0.35.0)
-    - ExpoModulesCore
-    - React-Core
   - EXCalendar (12.1.0):
     - ExpoModulesCore
   - EXConstants (15.2.0):
@@ -1817,7 +1812,6 @@ DEPENDENCIES:
   - EASClient/Tests (from `../packages/expo-eas-client/ios`)
   - EXAV (from `../packages/expo-av/ios`)
   - EXBarCodeScanner (from `../packages/expo-barcode-scanner/ios`)
-  - EXBranch (from `../packages/expo-branch/ios`)
   - EXCalendar (from `../packages/expo-calendar/ios`)
   - EXConstants (from `../packages/expo-constants/ios`)
   - EXContacts (from `../packages/expo-contacts/ios`)
@@ -2245,8 +2239,6 @@ EXTERNAL SOURCES:
     :path: "../packages/expo-av/ios"
   EXBarCodeScanner:
     :path: "../packages/expo-barcode-scanner/ios"
-  EXBranch:
-    :path: "../packages/expo-branch/ios"
   EXCalendar:
     :path: "../packages/expo-calendar/ios"
   EXConstants:
@@ -2522,7 +2514,7 @@ SPEC CHECKSUMS:
   ABI49_0_0ExpoImagePicker: e90159346c8082085c6071c56873a4deea002a97
   ABI49_0_0ExpoInsights: d4433e3114fc7fd01edbc82aa8cb72c0e346f40d
   ABI49_0_0ExpoKeepAwake: 5508e162548e92d0087811d63218030135ad45e0
-  ABI49_0_0ExpoKit: 98a60b257663bce6159e04ab9a8b18485bdec1ec
+  ABI49_0_0ExpoKit: 96b0359fa56c7e5068471ce0383e186c4b9b36bc
   ABI49_0_0ExpoLinearGradient: 98f9ba2f1b8bf7cc3974c1681114d58a2c07341f
   ABI49_0_0ExpoLocalAuthentication: fbc31ba5781a6b74fe8cd4f4dbbac4200ff8b076
   ABI49_0_0ExpoLocalization: ecce53a514e89c84e43ce3ed9fe38bf30258c99b
@@ -2613,7 +2605,6 @@ SPEC CHECKSUMS:
   EASClient: e40ec588adaaed075128bebdcd852e1fe749ea02
   EXAV: 99e41d9fd39a5d17eb66d822197a249d80140d56
   EXBarCodeScanner: 9d23a7823c1dda81249aa8d494bae6130e312ab1
-  EXBranch: 3abd983225b85532b79f257ca2c8f573b7d468c7
   EXCalendar: 3380176a50dac91328e80a1cf32b6819dc0f08f4
   EXConstants: 1734e43270773c7e22c50492bcbd3c2557f4bf14
   EXContacts: 49cadf80e7f1019821dde4a536960717f474dbeb
@@ -2641,7 +2632,7 @@ SPEC CHECKSUMS:
   ExpoGL: b0a5371872d1857fb6f154a0df7e41a72ed70465
   ExpoHaptics: acdfbe0450cf8c8ce97b5801326d0dddbddf7048
   ExpoHead: 625d2c4518d00ccc47cd7cbeb89975570ad57ba0
-  ExpoImage: 64cd716d10414edf59342de32043857a58e9a2a3
+  ExpoImage: a0db596f9f82dfa377305196d2c80770b20e2177
   ExpoImageManipulator: 6c30083e367e83eb7719db833c225bfc2ae53fe4
   ExpoImagePicker: d01668d6308e1b7bd50b530ee72187f62dcd1c48
   ExpoKeepAwake: 1ced2ebbeb594a66462568a7b7d9ac06f88abe89
@@ -2674,7 +2665,7 @@ SPEC CHECKSUMS:
   EXUpdates: c0d8e690e25027c3e9e02da7ff9e918979e21f53
   EXUpdatesInterface: 806249fbd771c72f015125166d756e1d71f3b905
   FBAEMKit: 5facf4292bff062963f563d68fd5c0cdd6c90d63
-  FBAudienceNetwork: 03e273f66b70756be7d060927111af97b7641b06
+  FBAudienceNetwork: 4d6223a9a88a22e9dca8c9e6c1829a8745b86228
   FBLazyVector: 71803c074f6325f10b5ec891c443b6bbabef0ca7
   FBReactNativeSpec: 91188c438ac0700baec9b0722333884f5986f347
   FBSDKCoreKit: f94e107ae84a6f4c0d9edfd06ed989b084bfa5bb
