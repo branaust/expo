@@ -2,7 +2,7 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app) and [`translate-sheet`](https://www.translatesheet.co/).
 
-https://github.com/user-attachments/assets/fd78a070-ff38-4551-9a30-e88f6fe61dc3
+https://github.com/user-attachments/assets/81db5fad-01f3-400f-8cd4-df44107a69af
 
 ## Get started
 
